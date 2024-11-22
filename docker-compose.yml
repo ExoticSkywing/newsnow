@@ -2,9 +2,11 @@ version: '3'
 
 services:
   newsnow:
-    image: ghcr.io/ourongxing/newsnow:latest
     container_name: newsnow
     restart: always
+    build:
+      context: . # 构建上下文，通常是 Dockerfile 所在的目录
+      dockerfile: Dockerfile # Dockerfile 的名称
     ports:
       - '4444:4444'
     environment:

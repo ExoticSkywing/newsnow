@@ -1,15 +1,15 @@
 {
-  "name": "newsnow",
+  "name": "浪漫宇宙-newsnow",
   "type": "module",
   "version": "0.0.18",
   "private": true,
   "packageManager": "pnpm@9.12.1",
   "author": {
-    "url": "https://github.com/ourongxing/",
-    "email": "orongxing@gmail.com",
-    "name": "ourongxing"
+    "url": "https://github.com/LMuniverse",
+    "email": "nebuluxe@1yo.cc",
+    "name": "Nebuluxe"
   },
-  "homepage": "https://github.com/ourongxing/newsnow",
+  "homepage": "https://lmyz.1yo.cc",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
